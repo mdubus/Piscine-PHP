@@ -1,0 +1,213 @@
+html, head, body{
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:Verdana;
+  height: 100vh;
+}
+body{
+  background-color:#7B773C;
+}
+h1{
+  margin: 0;
+  color: white;
+  display: block;
+  margin-top: 1vh;
+  text-align: center;
+}
+img{
+  margin: auto;
+  display: block;
+}
+#utilisateur{
+  display: block;
+  margin-right: 1%;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:active{
+  text-decoration: underline;
+}
+#menu{
+margin: auto;
+text-align: center;
+margin-top: 3vh;
+}
+#menu ul li{
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  margin-left: 1vw;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+#menu a{
+  display: inline-block;
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  border: 2px solid #5D591E;
+}
+#menu a:active{
+  text-decoration: underline;
+}
+#content{
+width:70%;
+margin: auto;
+margin-top: 1%;
+}
+/*------------------- Qui sommes-nous ? -------------------*/
+h2{
+  color: white;
+  text-align: center;
+  background-color: #5D591E;
+  padding: 1vw;
+}
+#active{
+  text-decoration: underline;
+}
+/*------------------- Formulaire -------------------*/
+#formulaire{
+  width: 40%;
+  margin: auto;
+  margin-top:3%;
+}
+#error{
+  background-color: #96281B;
+  color:white;
+  width:40%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+#connexion_done{
+  width:40%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#inscription-ok{
+  background-color:#5D591E;
+  color:white;
+  width:40%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+#inscription-ok a{
+  text-decoration:underline;
+}
+
+/* ------------------ CONTACT ------------------*/
+h3{
+	color: white;
+	text-align: center;
+}
+#adress{
+	color: white;
+	font-style: italic;
+	font-size: 1.2vw;
+	text-align: center;
+}
+/*------------------- admin -------------------*/
+#admin-accueil{
+  width: 50vw;
+  margin: auto;
+}
+#admin-accueil li{
+  list-style: none;
+}
+#admin-accueil a{
+  display: block;
+  padding: 1vw;
+  border: 2px solid #5D591E;
+  margin-top: 1vh;
+  font-size: 1,5vw;
+  text-align: center;
+}
+/*------------------- admin-users -------------------*/
+.admin-users{
+  text-decoration: underline;
+}
+
+#tab-admin-users table{
+  width: 50vw;
+  margin:auto;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#tab-admin-users td{
+  width: 10vw;
+  margin:auto;
+  text-align: center;
+  border: 1px solid;
+}
+#tab-admin-users th{
+  border: 1px solid;
+}
+/*------------------- Boutique -------------------*/
+aside{
+  width: 15vw;
+  background-color: #5D591E;
+  color: white;
+  padding:1vw;
+  float:left;
+  font-size: 1.2vw;
+}
+.nom-dino{
+background-color: #5D591E;
+color: white;
+text-align: center;
+padding: 1vw;
+}
+#boutique-dino{
+  width:40vw;
+  margin: auto;
+  border: none;
+}
+.acheter-dino a{
+  padding:1vh 2vh;
+  text-align:center;
+  display: block;
+  margin-bottom: 4vh;
+  text-decoration: underline;
+}
+#page-dino{
+  border:none;
+}
+
+/*------------------- admin-dinos -------------------*/
+
+#tab-admin-dino table{
+  width: 60vw;
+  margin:auto;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#tab-admin-dino td{
+  width: auto;
+  margin:auto;
+  text-align: center;
+  border: 1px solid;
+  font-size: 1vw;
+}
+#tab-admin-dino th{
+  border: 1px solid black;
+  width: auto;
+  font-size: 1.2vw;
+  background-color: #5D591E;
+  color: white;
+}
+

@@ -1,0 +1,88 @@
+h1{
+  text-align:center;
+  color:white;
+}
+html, body{
+  width:100%;
+  height:100%;
+  margin:auto;
+}
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn6.bigcommerce.com/s-9sf3i6p/product_images/uploaded_images/galaxy.jpg?t=1457808323");
+}
+td{
+  width:5%;
+  height:auto;
+  padding:3px;
+}
+.symbol{
+  text-align:center;
+  font-size: 2vw;
+}
+.vertical-align{
+  vertical-align:bottom;
+  font-size: 1vw;
+  width: 6%;
+}
+.masse{
+  text-align:right;
+  font-size: 1vw;
+}
+p{
+  margin:0;
+}
+.spacing{
+  margin-top:1%;
+}
+table{
+  width:90%;
+  margin:auto;
+  height:auto;
+}
+
+.purple{
+  border:3px solid #8E44AD;
+  background-color: #CFA1E5;
+}
+.blue{
+  background-color: #74D5FB;
+  border:3px solid #446CB3;
+}
+.green{
+  background-color: #79D4B4;
+  border:3px solid #16A085;
+}
+.yellow{
+  background-color: #F5D76E;
+  border:3px solid #F7CA18;
+}
+.gray{
+  background-color: #BDC3C7;
+  border:3px solid #95A5A6;
+}
+.pink{
+  background-color: #F2A4A5;
+  border:3px solid #E3638F;
+}
+.dark-blue{
+  background-color: #58A7DC;
+  border:3px solid #4B64AC;
+}
+.orange{
+  background-color: #FCA85F;
+  border:3px solid #F9690E;
+}
+.white{
+  background-color: #ECF0F1;
+  border:3px solid #BFBFBF;
+}
+.red{
+  background-color: #F96874;
+  border:3px solid #CF000F;
+}
+.turquoise{
+  background-color: #58F9D9;
+  border:3px solid #2ABB9B;
+}

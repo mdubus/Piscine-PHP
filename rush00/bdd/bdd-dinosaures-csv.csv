@@ -1,0 +1,9 @@
+id,dinosaure,categorie1,categorie2,quantite_femelle,quantite_male,prix,taille,poids,image
+1,Tyrannosaurus Rex,terrestre,carnivore,3,2,50000,5 à 6m de hauteur. 12 à  14m de longueur,5 à 7 tonnes,../img/tyrannosaurus.jpg
+2,Mosasaurus,marin,carnivore,1,3,10000,12 à 17m,500 à 600kg,../img/mosasaurus.png
+3,Diplodocus,terrestre,herbivore,8,6,8000,5 à 6m de hauteur. 25 à 30m de longueur,10 à 20 tonnes,../img/diplodocus.jpg
+4,Centrosaurus,terrestre,herbivore,1,4,7500,6m de longueur. 2m de hauteur,3 tonnes,../img/centrosaurus.jpg
+5,Stegausaurus,terrestre,herbivore,5,2,8000,8m de longueur. 4m de hauteur,3 tonnes,../img/stegosaurus.jpg
+6,Allosaurus,terrestre,carnivore,3,1,15000,12m de longueur. 5m de hauteur,2 tonnes,../img/allosaurus.jpg
+7,Compsognathus,terrestre,carnivore,7,5,2000,1m de longueur. 25cm de hauteur,3 kg,../img/compsognathus.jpg
+8,Velociraptor,terrestre,carnivore,2,5,,2m de longueur. 1m de hauteur,15 kg,../img/velociraptor.jpg

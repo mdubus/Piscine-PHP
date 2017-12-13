@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <input type="text" id="nb1"></input>
+  <select id="operations">
+    <option>+</option>
+    <option>-</option>
+    <option>*</option>
+    <option>/</option>
+    <option>%</option>
+  </select>
+  <input type="text" id="nb2"></input>
+  <input type="submit" value = "Try me !" onclick="message()"></input>
+<script>
+  setInterval(function(){ alert("Please, use me..."); }, 30000);
+</script>
+
+  <script>
+  function message() {
+    var index = document.getElementById("operations").selectedIndex;
+    var options = document.getElementById("operations").options;
+    var operateur = options[index].text;
+    var result;
+
+
+    var nombre1 = document.getElementById("nb1").value;
+    var nombre2 = document.getElementById("nb2").value;
+    if (!nombre1 || !nombre2)
+    {
+      alert ("Error :(");
+    }
+    else {
+      nombre1 = parseInt(nombre1);
+      nombre2 = parseInt(nombre2);
+
+      if (nombre1 < 0 || nombre2 < 0)
+      {
+        alert ("Error :(");
+      }
+      else {
+        if (operateur == "+")
+        result = nombre1 + nombre2;
+        else if (operateur == "-")
+        result = nombre1 - nombre2;
+        if (operateur == "*")
+        result = nombre1 * nombre2;
+        if (operateur == "/")
+        {
+          if (nombre2 == 0)
+          result = "It's over 9000 !";
+          else
+          result = nombre1 / nombre2;
+        }
+        if (operateur == "%")
+        {
+          if (nombre2 == 0)
+          result = "It's over 9000 !";
+          else
+          result = nombre1 % nombre2;
+        }
+        console.log(result);
+        alert(result);
+      }
+    }
+
+  }
+  </script>
+</body>
+</html>
